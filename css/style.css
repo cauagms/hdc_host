@@ -1,0 +1,251 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #70747a;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn-abrir-menu {
+    display: none;
+  }
+  
+  /* Navbar */
+    .logo img {
+      width: 50px;
+      margin-top: 15px;
+    }
+
+    .navbar-inner {
+      background-color: #232a31;
+      padding: 0 2rem;
+      height: 80px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links{
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      text-transform: uppercase;
+      color: #fff;
+      transition: .5s;
+    }
+
+    .nav-links a:hover {
+      color: #ccc;
+    }
+
+    .nav-links .default-btn {
+      background-color: #2cc76a;
+      padding: 15px 20px;
+      border-radius: 5px;
+    }
+
+    .nav-links .default-btn:hover {
+      background-color: #22bb5f;
+      color: #fff;
+    }
+
+    /* banner container */
+    .banner-container {
+      background: url(../img/mainbanner.png) no-repeat center;
+      background-size: cover;
+      padding: 10em 0;
+    }
+
+    .banner-container h1,
+    .banner-container p {
+      text-shadow: #000 3px 2px 3px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .banner-container h1 {
+      font-size: 54px;
+    }
+
+    .banner-container p {
+      font-size: 32px;
+    }
+
+    /* services */
+    .services-container {
+      padding: 5rem 0;
+    }
+
+    .services-container ul {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .services-container ul li {
+      flex: 1 1 200px;
+      margin: 0 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .fas {
+      font-size: 60px;
+      margin-bottom: 15px;
+    }
+
+    .fa-shield-alt {
+      color: #2cc76a;
+    }
+
+    .fa-rocket {
+      color: #ef3f29;
+    }
+
+    .fa-comments {
+      color: #ef8f29;
+    }
+
+    .services-container h3 {
+      margin-bottom: 25px;
+    }
+
+    .services-container p {
+      line-height: 24px;
+    }
+
+    /* price and plans */
+    .priccing-container {
+      padding: 5rem 0;
+      text-align: center;
+    }
+ 
+    .priccing-container h2 {
+      font-size: 36px;
+    }
+
+    .priccing-container p {
+      font-size: 20px;
+    }
+
+    .plans-container {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 50px auto;
+    }
+
+    .plans {
+      flex: 1;
+      max-width: 275px;
+      margin: 0 20px
+    }
+
+    .plans ul li {
+      background-color: #e8e9ea;
+      color: #333;
+      height: 50px;
+      line-height: 50px;
+    }
+
+    .plans .price {
+      background-color: #2cc762;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      line-height: 120px;
+      text-align: center;
+      margin: 0 auto -50px;
+      position: relative;
+    }
+
+    .plans .plan-name {
+      background-color: #202b34;
+      color: #fff;
+      padding: 50px 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .plans .plan-btn {
+      background-color: #2cc762;
+      color: #fff;
+      height: 75px;
+      line-height: 75px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .plans .recommended {
+      background-color: #f45c57;
+    }
+
+    .contact-container {
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    .contact-container h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .contact-container p {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .contact-container input, .contact-container textarea {
+      width: 200px;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 0 10px 20px;
+    }
+
+    .contact-container textarea {
+      width: 470px;
+      height: 150px;
+      display: block;
+      margin: 0 auto 20px;
+      resize: none;
+    }
+
+    .contact-container input[type=submit] {
+      background-color: #2cc762;
+      color: #fff;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-weight: bold;
+      margin: 20px 0 100px;
+    }
