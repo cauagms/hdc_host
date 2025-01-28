@@ -24,10 +24,6 @@
     text-decoration: none;
   }
 
-  .btn-abrir-menu {
-    display: none;
-  }
-  
   /* Navbar */
     .logo img {
       width: 50px;
